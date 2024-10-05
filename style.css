@@ -1,0 +1,328 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(221, 112, 112);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.nav-div1 {
+  display: flex;
+  gap: 4px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.nav-div2 {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  margin-top: 2%;
+}
+
+.nav-tattle {
+  font-size: 40px;
+  margin-top: 3%;
+  gap: 20px;
+  color: rgb(84, 84, 120);
+}
+
+.nav-div1 img {
+  width: 55px;
+  height: 50px;
+  margin-left: 10%;
+}
+
+.icon {
+  fill: rgb(100, 102, 158);
+  margin-top: 40px;
+  margin-left: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(81, 78, 128);
+}
+
+#uli-img {
+  display: flex;
+  width: 30%;
+}
+
+.uli-div {
+  text-align: left;
+  padding: 10px;
+  font-size: 22px;
+  color: rgb(81, 78, 128);
+  font-style: italic;
+  margin-top: 9%;
+}
+
+.gif-div {
+  display: flex;
+  justify-content: center;
+}
+
+.gif-div img {
+  width: 170px;
+}
+
+.gif-para {
+  font-size: 1.3em;
+  color: rgb(81, 78, 128);
+}
+
+.list-div {
+  margin-top: 25%;
+  color: rgb(81, 78, 128);
+  font-style: italic;
+}
+
+.list-div h1 {
+  font-size: 1.5em;
+}
+
+.list-div ul {
+  margin-top: 12%;
+}
+
+.list-div ul li {
+  font-size: 1.1em;
+}
+
+.highlight-div {
+  margin-top: 17%;
+  font-style: italic;
+  color: rgb(81, 78, 128);
+}
+
+.highlightDiv1 {
+  border-radius: 6px;
+  background-color: rgb(255, 235, 203);
+}
+
+.highlightDiv2 {
+  border-radius: 6px;
+  padding: 30px;
+  background-color: rgb(252, 191, 164);
+  margin-top: 5%;
+}
+
+.highlightDiv2 img {
+  width: 200px;
+}
+
+.repo-div {
+  margin-right: 10%;
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(81, 78, 128);
+  margin-top: 15%;
+}
+
+.repo-para {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 1.5%;
+}
+
+.blogs-link {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+}
+
+.blog-div {
+  color: rgb(81, 78, 128);
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 25%;
+}
+
+.blogs-link p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.blogs-link h3 {
+  margin: 0;
+  padding: 0;
+
+}
+
+.update-div {
+  color: rgb(81, 78, 128);
+  margin-top: 10%;
+  font-size: 14px;
+}
+
+.team-div {
+  color: rgb(81, 78, 128);
+  font-size: 15px;
+  margin-top: 15%;
+  margin-right: 5%;
+}
+
+.team-para {
+  color: rgb(81, 78, 128);
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 25%;
+}
+
+.footerImg-div img {
+  width: 25%;
+  height: 30px;
+}
+
+.footerContainer {
+  display: flex;
+  gap: 15%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#footerTattle-icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  color: rgb(108, 103, 103);
+  margin-top: 5%;
+  width: 250px;
+  height: 80px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footerContainer a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(108, 103, 103);
+}
+
+.footer-para {
+  font-size: 0.8em;
+  margin-top: 25%;
+  color: rgb(56, 56, 145);
+  opacity: 0.7;
+}
+
+@media (min-width: 0) and (max-width:768px) {
+  .nav-div2 {
+    display: none;
+  }
+}
+
+@media (min-width:764px) {
+  .main-container {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .nav-div2{
+    gap: 40%;   
+  }
+
+  .uli-div p {
+    font-size: 18px;
+  }
+
+  .uli-div #uli-img {
+    width: 60px;
+  }
+
+  .gif-div .gif-para {
+    font-size: 18px;
+    font-weight: 150;
+    margin-top: 100px;
+  }
+
+  .gif-div img {
+    width: 300px;
+  }
+
+  .menuImg .icon {
+    display: none;
+  }
+
+  .list-div {
+    margin-top: 10%;
+  }
+
+  .list-div ul {
+    margin-top: 5%;
+  }
+
+  .highlightDiv1 {
+    display: flex;
+    width: 100%;
+    height: 70%;
+  }
+
+  .highlightDiv2 {
+    display: flex;
+  }
+
+  .highlightDiv2 p {
+    margin-left: 30%;
+  }
+
+  .blogs-link {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+  }
+
+  .blogs-link a h3 {
+    text-align: left;
+  }
+
+  .blog-div .blog-dates {
+    font-size: 13px;
+  }
+
+  .blog-div {
+    margin-top: 15%;
+  }
+
+  .update-div .update-dates {
+    font-size: 13px;
+  }
+
+  .update-div .smallUpt-div {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer-para {
+    margin-top: 10px;
+  }
+
+  footer .footer-links a {
+    color: rgb(100, 102, 158);
+  }
+
+  .footerContainer .tattle-logo2 {
+    width: 50%;
+    height: 80%;
+    margin-right: 50%;
+  }
+
+  footer {
+    margin-top: 15%;
+  }
+
+}
